@@ -47,7 +47,7 @@ function changeSound(){
   play_button.addEventListener('click',()=>{
     if(sound.src.indexOf("party-horn")!=-1){
       jsConfetti_object.addConfetti({
-        emojis: ['🦄','🌈', '✨', '💫', '🌸'],
+        emojis: ['🎃','🎃','🕷️', '💀', '🎭', '🧙‍♀️','🦇'],
         confettiRadius:80,
       });
     }
